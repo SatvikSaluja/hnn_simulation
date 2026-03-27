@@ -1,11 +1,21 @@
 # HNN-Core Integrity Suite
 
-This repository contains a modular diagnostic tool for **HNN-Core** simulations. It separates the biophysical simulation logic from the regression testing framework to ensure model stability.
+A modular diagnostic and validation tool for **HNN-Core** simulations, designed to improve reliability and detect inconsistencies in simulation outputs.
+
+This project separates **simulation execution** from **validation logic**, enabling clearer testing workflows and better maintainability.
 
 ## Project Structure
-* `hnn_simulate.py`: The production script that builds and runs the Jones 2009 model.
-* `hnn_integrity.py`: The validation engine that audits peak latency and configuration integrity.
+* `hnn_simulate.py`: Builds and runs the Jones 2009 neural model to generate simulation outputs.
+* `hnn_integrity.py`: Validates simulation outputs by auditing peak latency and configuration consistency.
 
-## Installation
+## Workflow
+Run simulation → Generate outputs → Apply validation checks → Detect inconsistencies
+
+## Installation & Usage
 ```bash
+# Installation
 pip install -r requirements.txt
+
+# Usage
+python hnn_simulate.py
+python hnn_integrity.py
