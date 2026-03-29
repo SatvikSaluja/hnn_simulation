@@ -1,4 +1,4 @@
-# HNN-Core Integrity Suite
+# HNN Validation & Integrity Framework
 
 A modular diagnostic and validation tool for **HNN-Core** simulations, designed to improve reliability and detect inconsistencies in simulation outputs.
 
