@@ -3,7 +3,10 @@
 A modular diagnostic and validation tool for **HNN-Core** simulations, designed to improve reliability and detect inconsistencies in simulation outputs.
 
 This project separates **simulation execution** from **validation logic**, enabling clearer testing workflows and better maintainability.
-<img width="1129" height="579" alt="image" src="https://github.com/user-attachments/assets/00416fd1-eee9-4ae8-afa1-9adfe0c65a3d" />
+
+
+<img width="1109" height="587" alt="image" src="https://github.com/user-attachments/assets/deb24911-3a39-4901-a5db-0d2d8b504314" />
+
 
 
 ## Project Structure
